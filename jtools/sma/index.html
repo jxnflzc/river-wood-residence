@@ -854,6 +854,13 @@
 <td><code>List&lt;ClassDiagram&gt;</code></td>
 <td>获取xml中的所有类的对象间耦合度</td>
 </tr>
+<tr>
+<td>getCboByDependencyType</td>
+<td><code>Document doc</code>, <br/><code>List&lt;ClassDiagram&gt; classDiagramList</code>,<br/><code>String dependencyType</code></td>
+<td><code>doc</code><br/>读取的xml文件<br/><code>classDiagramList</code><br/>类图列表<br/><code>dependcyType</code><br/>计算CBO时所分析的类型，<br/>可分为依赖和关联。</td>
+<td><code>List&lt;ClassDiagram&gt;</code></td>
+<td>私有方法，仅供方法<code>getCbo</code>调用</td>
+</tr>
 </tbody>
 </table>
                 
